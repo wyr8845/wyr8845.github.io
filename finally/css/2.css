@@ -1,0 +1,13 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body .dui {
+	width: 1423px;
+	height: 100px;
+	background: lightgreen;
+	float: left;
+	padding: 10px;
+	margin: 10px;
+}

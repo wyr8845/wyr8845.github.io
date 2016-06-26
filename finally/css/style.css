@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	font-style: normal;
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+/*.paddingleft{
+	padding-left: 222px;
+}*/
+
+#box {
+	width: 1423px;
+	/*padding-left: 222px;*/
+	margin: 0 auto;
+}
+
+#top {
+	height: 55px;
+	padding-top: 56px;
+	padding-left: 540px;
+	background: url(../images/top_bg.jpg) no-repeat;
+}
+
+.nav {
+	height: 43px;
+	width: 660px;
+	background: #3fd4d9;
+	font-size: 14px;
+}
+
+.nav li {
+	float: left;
+}
+
+.nav li a {
+	text-align: center;
+	display: block;
+	width: 81px;
+	height: 43px;
+	line-height: 43px;
+	color: #003940;
+}
+
+.nav li a:hover {
+	font-weight: bold;
+}
+
+.nav_news_header:hover .nav_news,
+.nav_show_header:hover .nav_show {
+	display: block;
+	position: absolute;
+}
+
+.nav li ul li {
+	float: none;
+}
+
+#top ul li:hover ul li a {
+	font-size: 12px;
+	display: block;
+	background: #34ccd5;
+	color: black;
+	width: 81px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+}
+
+#top ul li:hover ul li a:hover {
+	background: #6dc7ec;
+	color: #fff;
+}
+
+.nav ul {
+	display: none;
+}
+
+#banner {
+	height: 395px;
+	background: lightgoldenrodyellow;
+}
+
+#search {
+	padding-left: 222px;
+	height: 63px;
+	background: url(../images/hr_bg.jpg) no-repeat;
+}
+
+.search_notice {
+	float: left;
+	padding-top: 8px;
+	line-height: 47px;
+	width: 402px;
+}
+
+.search_notice h2, .search_notice img {
+	float: left;
+}
+
+.search_notice h2{
+	font-size: 20px;
+	color: #fdd503;
+}
+
+.search_notice p{
+	float: right;
+	font-size: 14px;
+	color: white;
+}
+
+.search_search{
+	margin-left: 231px;
+	float: left;
+}
+
+.search_search input{
+	float: left;
+	height: 30px;
+	margin-top: 12px;
+	background: black;
+	border: solid 1px #213f69;
+	text-indent: 0.75em;
+}
+
+.search_search img{
+	float: left;
+	line-height: 55px;
+	margin-top: 12px;
+	margin-left: 3px;
+}
+
+#content {
+	height: auto;
+	background: #e9eef2;
+	margin-bottom: -3px;
+}
+
+#content iframe{
+	/*border: none;
+	text-align: left;
+	float: left;*/
+}
+
+#bottom {
+	height: 107px;
+	background: #21c8db;
+	padding: 28px 0 0 238px;
+	font-size: 12px;
+	color: #064c54;
+}
+
+#bottom p a{
+	margin-right: 28px;
+	color: #064c54;
+}
+
+.bottom_link{
+	margin-bottom: 26px;
+}
+
+.bottom_add{
+	margin-bottom: 18px;
+}

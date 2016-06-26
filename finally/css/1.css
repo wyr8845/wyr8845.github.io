@@ -1,0 +1,522 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+}
+
+ul li {
+	list-style: none;
+}
+/*box1*/
+div.box1 {
+	width: 980px;
+	height: 443px;
+	margin: 0 auto;
+}
+
+/*product_show1*/
+
+.product_show1 {
+	height: 29px;
+	border-bottom: 1px solid #a0d2d9;
+	padding-top: 34px;
+}
+
+.product_show1 .title {
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+}
+
+.product_show1 .title_pic {
+	float: left;
+	margin-left: 6px;
+}
+
+.product_show1 .more_pic {
+	float: right;
+	margin-right: 1px;
+	margin-top: 4px;
+	margin-left: 7px;
+}
+
+.product_show1 .more {
+	float: right;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+/*dede58_1*/
+
+.dede58_1 {
+	padding-top: 40px;
+	height: 310px;
+}
+
+.dede58_1 .left {
+	float: left;
+}
+
+.dede58_1 .left .left_pic {
+	margin-top: 142px;
+	float: left;
+}
+
+.dede58_1 .left .center_pic {
+	float: left;
+	border: 5px solid #58c7d8;
+	margin-left: 22px;
+	margin-right: 34px;
+}
+
+.dede58_1 .left .right_pic {
+	margin-top: 142px;
+	float: left;
+}
+
+.dede58_1 .right {
+	float: right;
+}
+
+.dede58_1 .right ul li {
+	width: 408px;
+	height: 65px;
+	border-radius: 50px;
+}
+.dede58_1 .right ul li:hover {
+	background: #10c2d7;
+}
+
+.dede58_1 .right ul li .num {
+	float: left;
+	width: 27px;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 50px;
+	font-weight: bold;
+	margin: 20px 17px 0 22px;
+	background: #10c2d7;
+	color: white;
+}
+.dede58_1 .right ul li:hover .num {
+	background: #fdd503;
+	color: #10c2d7;
+}
+
+.dede58_1 .right ul li .word {
+	float: left;
+	width: 312px;
+	font-size: 12px;
+	margin-top: 15px;
+	color: #10c2d7;
+}
+.dede58_1 .right ul li:hover .word {
+	color: white;
+}
+
+.dede58_1 .right ul li .word .middle {
+	line-height: 20px;
+	height: 43px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.hr1 {
+	background: #C3F1F7;
+	height: 5px;
+	border: 0;
+}
+/*box2*/
+div.box2 {
+	width: 980px;
+	height: 367px;
+	margin: 0 auto;
+}
+
+.box2 .title {
+	width: 980px;
+	height: 30px;
+	background: url(../images/main_line_small.png) repeat-x bottom;
+	padding-top: 20px;
+}
+
+.box2 .title .circle {
+	float: left;
+	width: 125px;
+	height: 30px;
+	background: #269fad;
+	border-radius: 24px;
+}
+
+.box2 .title .circle .circle_pic {
+	float: left;
+	padding: 3px 9px 0 10px;
+}
+
+.box2 .title .circle .circle_word {
+	float: left;
+	padding-top: 7px;
+	color: white;
+	font-size: 19px;
+}
+
+.box2 .title .right {
+	float: right;
+}
+
+.box2 .title .right a {
+	float: right;
+	display: block;
+	color: white;
+	background: #58c7d8;
+	padding-top: 5px;
+	padding-bottom: 3px;
+}
+
+.box2 .title .right div {
+	float: right;
+	padding-top: 5px;
+}
+
+.box2 .content {
+	padding-top: 30px;
+}
+
+.box2 .content table tr th .pic {
+	width: 290px;
+	height: 215px;
+	border: 5px solid white;
+	margin-left: 20px;
+}
+
+.box2 .content table tr th .pic .detail {
+	
+}
+
+.box2 .content table tr th .pic .detail a {
+	position: relative;
+	left: 244px;
+	bottom: 140px;
+	display: block;
+	color: white;
+	font-size: 20px;
+	width: 67px;
+	height: 42px;
+	background: #10c2d7;
+	border-radius: 50%;
+	padding-top: 25px;
+}
+
+.box2 .content table tr th .pic img {
+	width: 290px;
+	height: 215px;
+}
+
+.box2 .content table tr td .pic {
+	float: left;
+	margin-left: 20px;
+	padding-top: 5px;
+}
+
+.box2 .content table tr td .word {
+	float: left;
+	font-size: 16px;
+	padding-left: 10px;
+	padding-top: 6px;
+}
+
+/*box3*/
+div.box3 {
+	width: 980px;
+	height: auto;
+	margin: 44px auto 38px auto;
+}
+
+.box3 .up {
+	height: 310px;
+	width: 980px;
+	background: url(../images/main_line_small.png) repeat-x bottom;
+}
+
+.box3 .up .news {
+	width: 470px;
+	float: left;
+}
+
+.box3 .up .news .title {
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+}
+
+.box3 .up .news .title_english {
+	font-size: 13px;
+	font-weight: bold;
+	color: #ccc;
+	padding: 4px;
+	float: left;
+}
+
+.box3 .up .news .pic {
+	float: right;
+}
+/*这里的a似乎是重复的，到时候我们来复制粘贴吧*/
+.box3 .up .news a {
+	float: right;
+	display: block;
+	font-size: 13px;
+	background: #10c2d7;
+	width: 64px;
+	height: 16px;
+	color: white;
+	padding-top: 2px;
+	margin-right: 3px;
+	text-align: center;
+}
+
+.box3 .up .news .content {
+	/*float: left;*/
+	padding-top: 29px;
+	padding-left: 2px;
+}
+
+.box3 .up .news .content .line {
+	padding-top: 25px;
+	float: left;
+	width: 470px;
+	color: #606060;
+}
+
+.box3 .up .news .content .line img {
+	float: left;
+	padding-top: 2px;
+	padding-right: 7px;
+}
+
+.box3 .up .news .content .line .left {
+	float: left;
+	font-size: 11px;
+}
+
+.box3 .up .news .content .line .right {
+	float: right;
+	font-size: 9px;
+}
+
+.box3 .up .honor {
+	width: 470px;
+	height: 310px;
+	float: left;
+	margin-left: 40px;
+}
+
+.box3 .up .honor .title {
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+}
+
+.box3 .up .honor .title_english {
+	font-size: 13px;
+	font-weight: bold;
+	color: #ccc;
+	padding: 4px;
+	float: left;
+}
+
+.box3 .up .honor .pic {
+	float: right;
+}
+/*这里的a似乎是重复的，到时候我们来复制粘贴吧*/
+.box3 .up .honor a {
+	float: right;
+	display: block;
+	font-size: 13px;
+	background: #10c2d7;
+	width: 64px;
+	height: 16px;
+	color: white;
+	padding-top: 2px;
+	margin-right: 3px;
+	text-align: center;
+}
+
+.box3 .up .honor .content {
+	float: left;
+	padding-top: 29px;
+	padding-left: 9px;
+}
+
+.box3 .up .honor .content .honor1 {
+	border: 1px solid #babdbf;
+	float: left;
+}
+.box3 .up .honor .content .honor2 {
+	margin-left: 18px;
+	border: 1px solid #babdbf;
+	float: left;
+}
+
+.box3 .down {
+	height: 266px;
+	width: 980px;
+	background: url(../images/main_line_small.png) repeat-x bottom;
+}
+
+.box3 .down .left {
+	width: 300px;
+	height: 247px;
+	padding-top: 33px;
+	float: left;
+	/*padding-right: 120px;*/
+}
+
+.box3 .down .left .title_block {
+	height: 62px;
+}
+
+.box3 .down .left .title_pic {
+	padding-right: 14px;
+	float: left;
+}
+
+.box3 .down .left .title {
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 11px;
+}
+
+.box3 .down .left .title_english {
+	font-size: 14px;
+	font-weight: bold;
+	color: #ccc;
+	padding-top: 4px;
+	float: left;
+}
+
+.box3 .down .left a {
+	width: 90px;
+	height: 13px;
+	font-size: 12px;
+	display: block;
+	float: left;
+	background: #10c2d7;
+	color: white;
+	margin-top: 3px;
+	margin-left: 3px;
+	padding-top: 2px;
+	padding-left: 3px;
+}
+
+.box3 .down .left .content {
+	float: left;
+}
+
+.box3 .down .left .content .con {
+	padding-top: 19px;
+	font-size: 11px;
+	color: #666;
+}
+
+.box3 .down .right {
+	float: right;
+}
+
+.box3 .down .right .title {
+	width: 600px;
+	height: 30px;
+	background: url(../images/main_line_small.png) repeat-x bottom;
+	padding-top: 20px;
+	float: left;
+}
+
+.box3 .down .right .title .circle {
+	float: left;
+	width: 125px;
+	height: 30px;
+	background: #269fad;
+	border-radius: 24px;
+}
+
+.box3 .down .right .title .circle .circle_pic {
+	float: left;
+	padding: 3px 9px 0 10px;
+}
+
+.box3 .down .right .title .circle .circle_word {
+	float: left;
+	padding-top: 7px;
+	color: white;
+	font-size: 19px;
+}
+
+.box3 .down .right .title .right {
+	float: right;
+}
+
+.box3 .down .right .title .right a {
+	float: right;
+	display: block;
+	color: white;
+	background: #58c7d8;
+	padding-top: 5px;
+	padding-bottom: 3px;
+}
+
+.box3 .down .right .title .right div {
+	float: right;
+	padding-top: 5px;
+}
+
+.box3 .down .right .content {
+	width: 600px;
+	height: 187px;
+}
+
+.box3 .down .right .content img {
+	padding: 4px;
+	border: 1px solid #36cee0;
+	margin-top: 26px;
+	margin-right: 20px;
+	float: left;
+}
+
+.box3 .down .right .content .con {
+	width: 396px;
+	height: 115px;
+	font-size: 10px;
+	color: #666;
+	float: left;
+	line-height: 25px;
+	margin-top: 26px;
+}
+
+
+/*box4*/
+div.box4 {
+	height: 65px;
+	width: 1423px;
+	margin: 0 auto;
+	background: #269fad;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.box4 input {
+	width: 978px;
+	height: 50px;
+	border-radius: 10px;
+	border: 1px solid #c9e7ea;
+	box-shadow: inset 5px 5px 10px #c7c7c7;
+	padding-left: 12px;
+}
