@@ -1,0 +1,94 @@
+* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			.dui {
+				width: 1423px;
+				height: 505px;
+				background: #e9eef2;
+				
+				
+			}
+			/*left*/
+			
+			.left {
+				width: 557px;
+				height: 505px;
+				float: left;
+			}
+			
+			.left_mews {
+				width: 522px;
+				height: 176px;
+			}
+			
+			.left_news h2 {
+				text-align: 20px #000000;
+				margin-top: 36px;
+				margin-left: 222px;
+			}
+			
+			.left_news img {
+				margin-top: 6px;
+				margin-left: 222px;
+			}
+			
+			.left_news .company {
+				margin-top: 25px;
+			}
+			
+			.left_news .industry {
+				margin-top: 8px;
+			}
+			
+			.contact {
+				width: 521px;
+				height: 65px;
+				margin-top: 43px;
+				margin-left: 222px;
+			}
+			
+			.contact h2 {
+				float: left;
+				margin-left: 14px;
+			}
+			
+			.contact img {
+				float: left;
+			}
+			
+			.contact p {
+				width: 180px;
+					
+			}
+			
+			.contact p span {
+				float: left;
+				margin-left: 16px;
+		        color:#93e9f3;
+		        font-size: 14px;
+			}
+			
+			.contact p a{font-size: 12px; width: 87px;}
+			
+			ul{margin-left: 225px; list-style: none;margin-top: 19px;}
+			ul li{font-size: 11px; margin-top: 17px; color: #606060;} 
+			
+			
+			/*right*/
+			
+			.right {
+				width: 866px;
+				height: 469px;
+				padding-top: 36px;
+				float: left;
+			}
+			.right_top{height: 30px;}
+			
+			.right_center .tx{margin-top: 33px;margin-left: 0px; width: 567px;float: left;}
+			.right_center li{margin-top: 22px; font-size: 12px; color: #606060;}
+			.right_center .times{float: left; margin-top: 33px;margin-left: 0px;}
+			.right_bottom{margin-top: 299px}
+			.right_bottom p{ margin-left: 283px;font-size: 12px;color: #606060;}
+			.dui .bgbottom{margin-left: 222px;}
