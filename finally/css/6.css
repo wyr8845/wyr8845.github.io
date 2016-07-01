@@ -107,8 +107,10 @@ h3
 }
 #bot a
 {
-	color: #606060;
+	color: white;
 	text-decoration: none;
+	background-color: #10c2d7;
+	
 }
 
 .img2
@@ -171,12 +173,13 @@ h3
 	top: 17px;
 	left:462px;
 	font-size: 11px;
-	color: #666666;
+	color: white;
+	background-color:#10c2d7 ;
 }
 .position a
 {
 	text-decoration: none;
-	color: #666666;
+	color: white;
 }
 .text1
 {
