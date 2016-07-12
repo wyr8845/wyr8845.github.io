@@ -1,0 +1,229 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+hr {
+	height: 10px;
+	border: none;
+	border-top: 1px solid red;
+}
+
+
+/**********主题框架start**********/
+body {
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+
+body.index {
+	background: red url(../img/red_fire.png) bottom fixed repeat-x;
+}
+
+/*head*/
+
+#head {
+	height: 180px;
+	background: url(../img/red_ad.png) no-repeat center;
+}
+
+.head_top {
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.nav {
+	width: 1000px;
+	height: 45px;
+	margin: 0 auto;
+}
+
+.nav_left {
+	float: left;
+}
+.nav_right {
+	float: right;
+}
+
+.nav li {
+	float: left;
+}
+
+.nav li a {
+	display: block;
+	padding: 0 15px;
+	line-height: 45px;
+	transition: all 0.5s;
+}
+
+.nav li a img {
+	margin-top: 9px;
+	margin-bottom: -9px;
+}
+
+.nav li a:hover {
+	background: rgba(255, 255, 255, 0.7);
+}
+
+
+/*content*/
+
+#content {
+	width: 1000px;
+	/*height: 1000px;*/
+	background: white;
+	text-align: center;
+	margin: 0 auto;
+	box-shadow: inset 0px 0px 30px red;
+}
+
+
+/*foot*/
+
+#foot {
+	height: 80px;
+	background: pink;
+}
+
+.foot_content {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.e-mail {
+	text-align: center;
+	height: 80px;
+	line-height: 80px;
+	color: brown;
+}
+/**********主体框架end**********/
+
+
+/**********main start**********/
+
+.song, .me, .new {
+	width: 440px;
+	padding: 15px;
+	margin: 15px;
+	box-shadow: 0 0 5px red;
+}
+
+.song {
+	float: left;
+}
+
+.song audio {
+	width: 285px;
+}
+
+.me {
+	float: right;
+	position: relative;
+}
+
+.me .myHead {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.me hr {
+	width: 230px;
+}
+
+.new {
+	float: right;
+}
+
+.new img {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.new ul ul {
+	height: 120px;
+}
+
+.newContent {
+	width: 330px;
+	float: right;
+}
+/**********main end**********/
+
+
+/**********game start**********/
+
+.game {
+	margin: 15px;
+	box-shadow: 0 0 5px red;
+}
+
+.game img {
+	width: 210px;
+	height: 210px;
+}
+
+.game .img {
+	float: left;
+	padding: 15px;
+}
+
+/**********game end**********/
+
+
+/**********article start**********/
+
+.article {
+	margin: 15px;
+	padding: 15px;
+	box-shadow: 0 0 5px red;
+	width: 940px;
+	float: left;
+}
+
+.article .title {
+	float: left;
+}
+
+.article .date {
+	float: right;
+}
+
+.article {
+	transition: all 0.5s;
+}
+.articleA:hover .article {
+	background: rgba(255, 0, 0, 0.8);
+	color: white;
+}
+
+/**********article end**********/
+
+
+/**********h5 start**********/
+
+.h5 {
+	margin: 15px;
+	box-shadow: 0 0 5px red;
+}
+
+.h5 img {
+	width: 210px;
+	height: 210px;
+}
+
+.h5 .img {
+	float: left;
+	padding: 15px;
+}
+
+/**********h5 end**********/
