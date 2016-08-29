@@ -3,6 +3,9 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>超镦逸个人首页</title>
+		<meta name="Description" content="超镦逸个人网站。超镦逸是平凡而又怀揣梦想的ACG死宅，此人能编程也能绘画，即使并不能超越世界上强大的人类，也为了自己的梦想逐渐前进着，直至超越！">
+		<meta name="Keywords" content="超镦逸,幻星,Chodnii,UStar,Char,玩具,伊菲,Luka,脉搏,白眼石,枫叶石,三元石,灵力石">
+		<link rel="shortcut icon" href="img/favicon.ico"/>
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	</head>
 	<body class="index">
@@ -11,16 +14,16 @@
 			<div class="head_top">
 				<div class="nav">
 					<ul class="nav_left">
-						<li><a href="main.html" target="content">首页</a></li>
-						<li><a href="http://space.bilibili.com/8355981/" target="_blank">视频</a></li>
-						<li><a href="http://www.u17.com/comic/88283.html" target="_blank">漫画</a></li>
-						<li><a href="game.html" target="content">游戏</a></li>
-						<li><a href="article.html" target="content">文章</a></li>
-						<li><a href="HTML5.html" target="content">HTML5</a></li>
-						<li><a href="https://github.com/wyr8845" target="_blank">代码</a></li>
+						<li class="nav_main"><a href="main.html" target="content">首页</a></li>
+						<li class="nav_video"><a href="http://space.bilibili.com/8355981/" target="_blank">视频</a></li>
+						<li class="nav_manga"><a href="http://www.u17.com/comic/88283.html" target="_blank">漫画</a></li>
+						<li class="nav_game"><a href="game.html" target="content">游戏</a></li>
+						<li class="nav_article"><a href="article.html" target="content">文章</a></li>
+						<li class="nav_html5"><a href="HTML5.html" target="content">H5</a></li>
+						<li class="nav_github"><a href="https://github.com/wyr8845" target="_blank">代码</a></li>
 					</ul>
 					<ul class="nav_right">
-						<li><a href="http://weibo.com/Chodnii" target="_blank"><img src="img/WB_logo.png" /></a></li>
+						<li class="nav_weibo"><a href="http://weibo.com/Chodnii" target="_blank">所以大家不要看右上角这个按钮就以为下面的页面其实是我的微博！</a></li>
 					</ul>
 				</div>
 			</div>
@@ -39,9 +42,20 @@
 				</div>
 			</div>
 		</div>
+		<!--person-->
+		<div id="person">
+			<div class="talk">哟！</div>
+			<div class="triangle"><img src="img/talk_triangle.png"/></div>
+			<div class="toy">
+				<img class="body" src="img/toy/toy_body.png"/>
+				<img class="eye" src="img/toy/toy_eye_normal.png"/>
+				<img class="mouse" src="img/toy/toy_mouse_normal.png"/>
+			</div>
+		</div>
 		
 		<!--javascript-->
 		<script src="js/jquery-3.0.0.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/toy.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 </html>

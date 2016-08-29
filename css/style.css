@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	border: 0;
 }
 li {
 	list-style: none;
@@ -25,7 +26,7 @@ body {
 }
 
 body.index {
-	background: red url(../img/red_fire.png) bottom fixed repeat-x;
+	background: url(../img/red_background.jpg) bottom fixed repeat-x;
 }
 
 /*head*/
@@ -36,7 +37,7 @@ body.index {
 }
 
 .head_top {
-	background: rgba(255, 255, 255, 0.5);
+	background: rgba(0, 0, 0, 0.3);
 }
 
 .nav {
@@ -58,18 +59,53 @@ body.index {
 
 .nav li a {
 	display: block;
+	text-align: right;
 	padding: 0 15px;
 	line-height: 45px;
+	color: white;
+	width: 30px;
+	height: 45px;
+	opacity: 0;
+	overflow: hidden;
 	transition: all 0.5s;
 }
 
-.nav li a img {
-	margin-top: 9px;
-	margin-bottom: -9px;
+.nav li {
+	background-image: url(../img/icon_head.png);
+	background-repeat: no-repeat;
+}
+.nav_main {
+	background-position: 14px 7px;
+}
+.nav_video {
+	background-position: 14px -33px;
+}
+.nav_manga {
+	background-position: 14px -72px;
+}
+.nav_game {
+	background-position: 14px -110px;
+}
+.nav_article {
+	background-position: 14px -148px;
+}
+.nav_html5 {
+	background-position: 14px -188px;
+}
+.nav_github {
+	background-position: 14px -228px;
+}
+.nav_weibo {
+	background-position: 14px -268px;
 }
 
 .nav li a:hover {
-	background: rgba(255, 255, 255, 0.7);
+	background: rgba(255, 255, 255, 0.3);
+	width: 68px;
+	opacity: 1;
+}
+.nav li.nav_weibo a:hover {
+	width: 500px;
 }
 
 
@@ -103,6 +139,55 @@ body.index {
 	line-height: 80px;
 	color: brown;
 }
+
+
+/*person*/
+
+#person {
+	position: fixed;
+	width: 200px;
+	height: 400px;
+	right: 0;
+	bottom: 0;
+	z-index: 999;
+}
+
+#person>.talk {
+	position: absolute;
+	background: white;
+	bottom: 220px;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid red;
+}
+
+#person>.triangle {
+	position: absolute;
+	bottom: 197px;
+	left: 10px;
+}
+
+#person>.toy {
+	position: absolute;
+	bottom: 0;
+	height: 200px;
+	width: 200px;
+	cursor: pointer;
+}
+
+#person>.toy>.body {
+	position: relative;
+}
+#person>.toy>.eye {
+	position: absolute;
+	left: 34%;
+	top: 20%;
+}
+#person>.toy>.mouse {
+	position: absolute;
+	left: 42%;
+	top: 36%;
+}
 /**********主体框架end**********/
 
 
@@ -113,6 +198,7 @@ body.index {
 	padding: 15px;
 	margin: 15px;
 	box-shadow: 0 0 5px red;
+	border-radius: 5px;
 }
 
 .song {
@@ -132,8 +218,15 @@ body.index {
 	width: 200px;
 	height: 200px;
 	position: absolute;
+	border-radius: 20px;
 	right: 10px;
 	top: 10px;
+	transition: all 1s;
+}
+.me .myHead:hover {
+	width: 240px;
+	height: 240px;
+	border-radius: 24px;
 }
 .me hr {
 	width: 230px;
@@ -144,9 +237,26 @@ body.index {
 }
 
 .new img {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+	transition: all 0.5s;
+}
+.new img:hover {
+	width: 150px;
+	height: 150px;
+	left: -25px;
+	top: -25px;
+}
+.new .img {
+	position: absolute;
+	overflow: hidden;
 	width: 100px;
 	height: 100px;
 	float: left;
+	border-radius: 10px;
 }
 
 .new ul ul {
@@ -156,6 +266,9 @@ body.index {
 .newContent {
 	width: 330px;
 	float: right;
+}
+.newContent:hover li {
+	color: indianred;
 }
 /**********main end**********/
 
@@ -170,11 +283,35 @@ body.index {
 .game img {
 	width: 210px;
 	height: 210px;
+	border-radius: 10px;
+	transition: all 0.2s;
+	position: absolute;
 }
 
 .game .img {
+	position: relative;
 	float: left;
-	padding: 15px;
+	width: 210px;
+	height: 210px;
+	margin: 15px;
+	background: black;
+	border-radius: 10px;
+}
+.game .img:hover img {
+	opacity: 0.3;
+}
+.game .img:hover h1 {
+	opacity: 0.5;
+}
+
+.game h1 {
+	position: absolute;
+	line-height: 210px;
+	width: 210px;
+	text-align: center;
+	color: white;
+	opacity: 0;
+	transition: all 0.2s;
 }
 
 /**********game end**********/
@@ -188,6 +325,7 @@ body.index {
 	box-shadow: 0 0 5px red;
 	width: 940px;
 	float: left;
+	border-radius: 5px;
 }
 
 .article .title {
@@ -199,10 +337,10 @@ body.index {
 }
 
 .article {
-	transition: all 0.5s;
+	transition: all 0.2s;
 }
 .articleA:hover .article {
-	background: rgba(255, 0, 0, 0.8);
+	background: rgba(255, 0, 0, 0.6);
 	color: white;
 }
 
@@ -219,11 +357,35 @@ body.index {
 .h5 img {
 	width: 210px;
 	height: 210px;
+	border-radius: 10px;
+	transition: all 0.2s;
+	position: absolute;
 }
 
 .h5 .img {
+	position: relative;
 	float: left;
-	padding: 15px;
+	width: 210px;
+	height: 210px;
+	margin: 15px;
+	background: black;
+	border-radius: 10px;
+}
+.h5 .img:hover img {
+	opacity: 0.3;
+}
+.h5 .img:hover h1 {
+	opacity: 0.5;
+}
+
+.h5 h1 {
+	position: absolute;
+	line-height: 210px;
+	width: 210px;
+	text-align: center;
+	color: white;
+	opacity: 0;
+	transition: all 0.2s;
 }
 
 /**********h5 end**********/
