@@ -11,12 +11,89 @@ a {
 	color: black;
 }
 
-
 hr {
 	height: 10px;
 	border: none;
 	border-top: 1px solid red;
 }
+/*红*/
+.per_red_10 {width: 10%;background: rgb(25, 0, 0);}
+.per_red_20 {width: 20%;background: rgb(51, 0, 0);}
+.per_red_30 {width: 30%;background: rgb(76, 0, 0);}
+.per_red_40 {width: 40%;background: rgb(102, 0, 0);}
+.per_red_50 {width: 50%;background: rgb(127, 0, 0);}
+.per_red_60 {width: 60%;background: rgb(153, 0, 0);}
+.per_red_70 {width: 70%;background: rgb(178, 0, 0);}
+.per_red_80 {width: 80%;background: rgb(204, 0, 0);}
+.per_red_90 {width: 90%;background: rgb(229, 0, 0);}
+.per_red_100 {width: 100%;background: rgb(255, 0, 0);}
+/*橙*/
+.per_orange_10 {width: 10%;background: rgb(255, 12, 0);}
+.per_orange_20 {width: 20%;background: rgb(255, 25, 0);}
+.per_orange_30 {width: 30%;background: rgb(255, 38, 0);}
+.per_orange_40 {width: 40%;background: rgb(255, 50, 0);}
+.per_orange_50 {width: 50%;background: rgb(255, 63, 0);}
+.per_orange_60 {width: 60%;background: rgb(255, 76, 0);}
+.per_orange_70 {width: 70%;background: rgb(255, 88, 0);}
+.per_orange_80 {width: 80%;background: rgb(255, 101, 0);}
+.per_orange_90 {width: 90%;background: rgb(255, 114, 0);}
+.per_orange_100 {width: 100%;background: rgb(255, 127, 0);}
+/*黄*/
+.per_yellow_10 {width: 10%;background: rgb(255, 139, 0);}
+.per_yellow_20 {width: 20%;background: rgb(255, 152, 0);}
+.per_yellow_30 {width: 30%;background: rgb(255, 165, 0);}
+.per_yellow_40 {width: 40%;background: rgb(255, 177, 0);}
+.per_yellow_50 {width: 50%;background: rgb(255, 190, 0);}
+.per_yellow_60 {width: 60%;background: rgb(255, 203, 0);}
+.per_yellow_70 {width: 70%;background: rgb(255, 215, 0);}
+.per_yellow_80 {width: 80%;background: rgb(255, 228, 0);}
+.per_yellow_90 {width: 90%;background: rgb(255, 241, 0);}
+.per_yellow_100 {width: 100%;background: rgb(255, 255, 0);}
+/*绿*/
+.per_green_10 {width: 10%;background: rgb(229, 255, 0);}
+.per_green_20 {width: 20%;background: rgb(204, 255, 0);}
+.per_green_30 {width: 30%;background: rgb(178, 255, 0);}
+.per_green_40 {width: 40%;background: rgb(153, 255, 0);}
+.per_green_50 {width: 50%;background: rgb(127, 255, 0);}
+.per_green_60 {width: 60%;background: rgb(102, 255, 0);}
+.per_green_70 {width: 70%;background: rgb(76, 255, 0);}
+.per_green_80 {width: 80%;background: rgb(51, 255, 0);}
+.per_green_90 {width: 90%;background: rgb(25, 255, 0);}
+.per_green_100 {width: 100%;background: rgb(0, 255, 0);}
+/*青*/
+.per_cyan_10 {width: 10%;background: rgb(0, 255, 25);}
+.per_cyan_20 {width: 20%;background: rgb(0, 255, 51);}
+.per_cyan_30 {width: 30%;background: rgb(0, 255, 76);}
+.per_cyan_40 {width: 40%;background: rgb(0, 255, 102);}
+.per_cyan_50 {width: 50%;background: rgb(0, 255, 127);}
+.per_cyan_60 {width: 60%;background: rgb(0, 255, 153);}
+.per_cyan_70 {width: 70%;background: rgb(0, 255, 178);}
+.per_cyan_80 {width: 80%;background: rgb(0, 255, 204);}
+.per_cyan_90 {width: 90%;background: rgb(0, 255, 229);}
+.per_cyan_100 {width: 100%;background: rgb(0, 255, 255);}
+/*蓝*/
+.per_blue_10 {width: 10%;background: rgb(0, 229, 255);}
+.per_blue_20 {width: 20%;background: rgb(0, 204, 255);}
+.per_blue_30 {width: 30%;background: rgb(0, 178, 255);}
+.per_blue_40 {width: 40%;background: rgb(0, 153, 255);}
+.per_blue_50 {width: 50%;background: rgb(0, 127, 255);}
+.per_blue_60 {width: 60%;background: rgb(0, 102, 255);}
+.per_blue_70 {width: 70%;background: rgb(0, 76, 255);}
+.per_blue_80 {width: 80%;background: rgb(0, 51, 255);}
+.per_blue_90 {width: 90%;background: rgb(0, 25, 255);}
+.per_blue_100 {width: 100%;background: rgb(0, 0,255);}
+/*紫*/
+.per_purple_10 {width: 10%;background: rgb(0, 0, 229);}
+.per_purple_20 {width: 20%;background: rgb(0, 0, 204);}
+.per_purple_30 {width: 30%;background: rgb(0, 0, 178);}
+.per_purple_40 {width: 40%;background: rgb(0, 0, 153);}
+.per_purple_50 {width: 50%;background: rgb(0, 0, 127);}
+.per_purple_60 {width: 60%;background: rgb(0, 0, 102);}
+.per_purple_70 {width: 70%;background: rgb(0, 0, 76);}
+.per_purple_80 {width: 80%;background: rgb(0, 0, 51);}
+.per_purple_90 {width: 90%;background: rgb(0, 0, 25);}
+.per_purple_100 {width: 100%;background: rgb(0, 0, 0);}
+
 
 
 /**********主题框架start**********/
@@ -193,7 +270,7 @@ body.index {
 
 /**********main start**********/
 
-.song, .me, .new {
+.skill, .me, .new {
 	width: 440px;
 	padding: 15px;
 	margin: 15px;
@@ -201,12 +278,28 @@ body.index {
 	border-radius: 5px;
 }
 
-.song {
+.skill {
 	float: left;
 }
 
-.song audio {
-	width: 285px;
+.skill>#option>.now {
+	font-weight: bold;
+	color: red;
+}
+
+.skill>.skillDetail {
+	color: white;
+}
+.skill>.skillDetail .title {
+	float: left;
+}
+.skill>.skillDetail .per {
+	float: right;
+}
+.skill>.skillDetail>.line {
+	padding: 5px;
+	margin-top: 5px;
+	height: 20px;
 }
 
 .me {
