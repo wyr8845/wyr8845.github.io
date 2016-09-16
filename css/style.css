@@ -144,7 +144,7 @@ body.index {
 	height: 45px;
 	opacity: 0;
 	overflow: hidden;
-	transition: all 0.5s;
+	transition: all 0.3s;
 }
 
 .nav li {
@@ -335,7 +335,7 @@ body.index {
 	height: 100px;
 	left: 0px;
 	top: 0px;
-	transition: all 0.5s;
+	transition: all 0.3s;
 }
 .new img:hover {
 	width: 150px;
