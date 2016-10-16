@@ -103,14 +103,15 @@ body {
 }
 
 body.index {
-	background: url(../img/red_background.jpg) bottom fixed repeat-x;
+	background: white
 }
 
 /*head*/
 
 #head {
 	height: 180px;
-	background: url(../img/red_ad.png) no-repeat center;
+	background: url(../img/AD/TankAD.png) no-repeat center;
+	cursor: pointer;
 }
 
 .head_top {
@@ -118,6 +119,7 @@ body.index {
 }
 
 .nav {
+	position: relative;
 	width: 1000px;
 	height: 45px;
 	margin: 0 auto;
@@ -176,6 +178,22 @@ body.index {
 	background-position: 14px -268px;
 }
 
+.nav_tips {
+	position: absolute;
+	left: 400px;
+	top: 100px;
+	padding: 5px;
+	background: rgba(0, 0, 0, 0.7);
+	color: white;
+	border-radius: 5px;
+	opacity: 0;
+	transition: all 0.2s;
+}
+
+#head:hover .nav_tips {
+	opacity: 1;
+}
+
 .nav li a:hover {
 	background: rgba(255, 255, 255, 0.3);
 	width: 68px;
@@ -194,7 +212,6 @@ body.index {
 	background: white;
 	text-align: center;
 	margin: 0 auto;
-	box-shadow: inset 0px 0px 30px red;
 }
 
 
@@ -393,11 +410,11 @@ body.index {
 .game .img:hover img {
 	opacity: 0.3;
 }
-.game .img:hover h1 {
+.game .img:hover h1, .game .img:hover h7 {
 	opacity: 0.5;
 }
 
-.game h1 {
+.game h1, .game h7 {
 	position: absolute;
 	line-height: 210px;
 	width: 210px;
