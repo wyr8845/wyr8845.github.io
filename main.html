@@ -477,8 +477,8 @@
 			console.log(response);
 			if(response.status === 'connected') {
 				console.log("登录成功");
-			} else if(response.status === 'not_authorized') {
-				console.log("没有认证");
+				console.log("accessToke:" + response.authResponse.accessToken);
+				console.log("userID:" + response.authResponse.userID);
 			} else {
 				console.log("需要登录");
 			}
