@@ -304,7 +304,7 @@
 				<hr />
 				<li>
 					非死不可登录：
-					<fb:login-button scope="public_profile" onlogin="checkLoginState();">
+					<fb:login-button scope="public_profile" onlogin="login();">
 					</fb:login-button>
 				</li>
 				<li>性别：男性</li>
@@ -475,6 +475,7 @@
 		function statusChangeCallback(response) {
 			console.log('statusChangeCallback');
 			console.log(response);
+			
 			if(response.status === 'connected') {
 				console.log("登录成功");
 				console.log("accessToke:" + response.authResponse.accessToken);
@@ -513,11 +514,10 @@
 			fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));
 
-		function checkLoginState() {
-			FB.getLoginStatus(function(response) {
-				statusChangeCallback(response);
+		function login(){
+			FB.login(function(response){
+			  	statusChangeCallback(response);
 			});
 		}
 	</script>
-
 </html>
