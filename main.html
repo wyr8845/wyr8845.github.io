@@ -478,8 +478,7 @@
 			
 			if(response.status === 'connected') {
 				console.log("登录成功");
-				console.log("accessToke:" + response.authResponse.accessToken);
-				console.log("userID:" + response.authResponse.userID);
+				HtmlCallUnity(response.authResponse.accessToken, response.authResponse.userID);
 			} else {
 				console.log("需要登录");
 			}
@@ -518,6 +517,11 @@
 			FB.login(function(response){
 			  	statusChangeCallback(response);
 			});
+		}
+		
+		function HtmlCallUnity(accessToken, userID)
+		{
+		
 		}
 	</script>
 </html>
