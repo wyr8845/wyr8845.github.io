@@ -306,7 +306,6 @@
 					非死不可登录：
 					<fb:login-button scope="public_profile" onlogin="login();">
 					</fb:login-button>
-					<button id="HtmlCallUnity" hidden onclick="HtmlCallUnity(123)">HtmlCallUnity</button>
 				</li>
 				<li>性别：男性</li>
 				<li>种族：人族</li>
@@ -479,7 +478,7 @@
 			
 			if(response.status === 'connected') {
 				console.log("登录成功");
-				document.getElementById("HtmlCallUnity").onclick(HtmlCallUnity(response.authResponse.accessToken, response.authResponse.userID));
+				console.log("LoginSuccessInfo_" + response.authResponse.accessToken + "_" + response.authResponse.userID);
 			} else {
 				console.log("需要登录");
 			}
@@ -518,11 +517,6 @@
 			FB.login(function(response){
 			  	statusChangeCallback(response);
 			});
-		}
-		
-		function HtmlCallUnity(accessToken, userID)
-		{
-			console.log("登录完成回调，该unity接收");
 		}
 	</script>
 </html>
