@@ -14,25 +14,30 @@ body {
 
 #main_body {
 	background-image: url("../img/TitleBg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 }
 
 #frame {
-	position: relative;
-	top: 60px;
-	width: 1400px;
-	height: 800px;
+	background: white;
+	width: 1440px;
 	margin: auto;
 	text-align: left;
+	filter: opacity(95%);
+	-webkit-filter: opacity(95%);
 }
 
-#menubox,
-#main {
-	background-color: white;
-	-webkit-filter: opacity(95%);
-	/* Chrome, Safari, Opera */
-	filter: opacity(95%);
-	border-style: solid;
-	border-color: #90EE90;
+#head_image {
+	text-align: center;
+}
+
+#contact {
+	text-align: center;
+	padding: 10px;
+	font-size: 24px;
+	color: #407750;
 }
 
 #menu ul {
@@ -90,11 +95,20 @@ iframe {
 	text-align: left;
 }
 
+hr {
+	margin-left: 43px;
+	margin-right: 43px;
+}
+
+h3 {
+	margin-left: 43px;
+}
+
 .box {
 	width: 180px;
 	height: 220px;
 	text-align: center;
-	margin: 30px 0 0 33px;
+	margin: 0 0 43px 43px;
 	border-style: solid;
 	display: inline-block;
 	cursor: pointer;
@@ -105,6 +119,38 @@ iframe {
 	margin-bottom: 10px;
 	width: 100px;
 	height: 100px;
+}
+
+.people {
+	width: 587px;
+	height: 200px;
+	margin: 0 0 43px 43px;
+	border-style: solid;
+	display: inline-block;
+	padding: 30px;
+}
+
+.people img {
+	border-radius: 100px;
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+.desc {
+	float: left;
+	margin-left: 30px;
+	width: 357px;
+}
+
+.desc .name {
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+
+.desc .job {
+	font-size: 24px;
+	margin-bottom: 30px;
 }
 
 .box_body {
