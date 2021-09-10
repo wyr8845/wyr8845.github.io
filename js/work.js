@@ -26,6 +26,10 @@ $("#silver_tree").click(function() {
 	GpPage("https://store.steampowered.com/app/1069520/Green_Field_Silver_Tree/");
 });
 
+$("#sandrock").click(function() {
+	GpPage("https://store.steampowered.com/app/1084600/_/");
+});
+
 function GpPage(pageName) {
 	window.open(pageName);
 }
