@@ -1,0 +1,54 @@
+{
+    "indie": [
+        {
+            "image": "img/work/绿野白银树.png",
+            "name": "绿野白银树",
+            "type": "3DARPG",
+            "link": "https://store.steampowered.com/app/1069520"
+        },
+        {
+            "image": "img/work/Flappy Icon.jpg",
+            "name": "Flappy Cube",
+            "type": "休闲游戏",
+            "link": "https://pan.baidu.com/s/1geHc5pD"
+        },
+        {
+            "image": "img/work/Adventure Icon.jpg",
+            "name": "彩虹之岛：冒险的开始",
+            "type": "3DARPG",
+            "link": "https://pan.baidu.com/s/1hs4yP3u"
+        },
+        {
+            "image": "img/work/tank_icon.png",
+            "name": "坦克的战斗：黑与白",
+            "type": "俯视TPS",
+            "link": "https://pan.baidu.com/s/1c2rBzm4"
+        },
+        {
+            "image": "img/work/夏亚头像.png",
+            "name": "上吧！玩具！2",
+            "type": "没钱打包的Xcode项目",
+            "link": "https://pan.baidu.com/s/1kT3dCxD"
+        },
+        {
+            "image": "img/work/上吧玩具.png",
+            "name": "上吧！玩具！",
+            "type": "静止字符串回合制游戏",
+            "link": "https://pan.baidu.com/s/1c02DBH2"
+        }
+    ],
+    "company": [
+        {
+            "image": "img/work/沙石镇时光.png",
+            "name": "沙石镇时光",
+            "type": "3DARPG",
+            "link": "https://store.steampowered.com/app/1084600"
+        },
+        {
+            "image": "img/work/帝国崛起.jpg",
+            "name": "帝国:崛起",
+            "type": "RTS",
+            "link": "https://store.steampowered.com/app/973390"
+        }
+    ]
+}
