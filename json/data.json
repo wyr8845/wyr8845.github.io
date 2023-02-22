@@ -38,6 +38,12 @@
         }
     ],
     "company": [
+    	{
+            "image": "img/work/九重试炼.png",
+            "name": "九重试炼",
+            "type": "休闲游戏",
+            "link": "https://www.taptap.cn/app/232820"
+        },
         {
             "image": "img/work/沙石镇时光.png",
             "name": "沙石镇时光",
