@@ -39,6 +39,12 @@
     ],
     "company": [
     	{
+            "image": "img/work/蜗居物语.png",
+            "name": "蜗居物语",
+            "type": "休闲游戏",
+            "link": "https://wojuwuyu.skydreams.cn/"
+        },
+    	{
             "image": "img/work/九重试炼.png",
             "name": "九重试炼",
             "type": "休闲游戏",
