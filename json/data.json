@@ -39,10 +39,16 @@
     ],
     "company": [
     	{
+            "image": "img/work/潘塔伦之歌.png",
+            "name": "潘塔伦之歌",
+            "type": "3DARPG",
+            "link": "https://www.wanyibacool.com/bandicam.html"
+        },
+    	{
             "image": "img/work/蜗居物语.png",
             "name": "蜗居物语",
             "type": "休闲游戏",
-            "link": "https://wojuwuyu.skydreams.cn/"
+            "link": "https://wojuwuyu.skydreams.cn"
         },
         {
             "image": "img/work/太空特攻队.jpg",
